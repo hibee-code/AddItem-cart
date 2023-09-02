@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Item</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="col-lg-12 p-0">
+        <header class="bg-success pl-4 pr-4 d-flex align-items-center justify-content-between" style="height: 80px;">
+            <div class="logo text-white">
+                <h2>ItemLister</h2>
+            </div>
+            <input type="search" id="search" placeholder="Search......" class="form-control w-50">
+        </header>
+    </div>
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="container border mt-4">
+                <div class="items">
+                    <div class="add-item d-flex pt-4 pb-4">
+                        <input type="text" id="itemInput" placeholder="Enter item......" class="form-control w-50 mr-4">
+                        <button type="button" id="addButton" class="btn btn-dark text-white">Add Item</button>
+                    </div>
+                    <ul class="p-0" id="item-list">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
